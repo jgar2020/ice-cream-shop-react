@@ -3,9 +3,9 @@ import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import { LinkContainer } from "react-router-bootstrap";
 import Nav from "react-bootstrap/Nav";
-import NavDropdown from "react-bootstrap/NavDropdown";
-import Dropdown from "react-bootstrap/Dropdown";
-import Button from "react-bootstrap/Button";
+// import NavDropdown from "react-bootstrap/NavDropdown";
+// import Dropdown from "react-bootstrap/Dropdown";
+// import Button from "react-bootstrap/Button";
 import { useAuth } from "./../util/auth.js";
 
 function NavbarCustom(props) {
@@ -40,13 +40,13 @@ function NavbarCustom(props) {
               <Nav.Link active={false}>FAQ</Nav.Link>
             </LinkContainer>
 
-            {!auth.user && (
+            {/* {!auth.user && (
               <LinkContainer to="/auth/signin">
                 <Nav.Link active={false}>Sign in</Nav.Link>
               </LinkContainer>
-            )}
+            )} */}
 
-            {auth.user && (
+            {/* {auth.user && (
               <NavDropdown id="dropdown" title="Account" alignRight={true}>
                 <LinkContainer to="/dashboard">
                   <NavDropdown.Item active={false}>Dashboard</NavDropdown.Item>
@@ -70,14 +70,14 @@ function NavbarCustom(props) {
                   </NavDropdown.Item>
                 </LinkContainer>
               </NavDropdown>
-            )}
+            )} */}
           </Nav>
 
-          {!auth.user && (
+          {/* {!auth.user && (
             <LinkContainer to="/auth/signup">
               <Button variant="primary">Sign Up</Button>
             </LinkContainer>
-          )}
+          )} */}
         </Navbar.Collapse>
       </Container>
     </Navbar>

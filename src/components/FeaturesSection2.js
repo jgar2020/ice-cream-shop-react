@@ -10,29 +10,25 @@ import "./FeaturesSection2.scss";
 function FeaturesSection2(props) {
   const items = [
     {
-      title: "Explore",
-      description:
-        "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.",
-      image: "https://uploads.divjoy.com/undraw-mind_map_cwng.svg",
+      title: "Feature01",
+      description: "Paragraph",
+      image: ""
     },
     {
-      title: "Explore",
-      description:
-        "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.",
-      image: "https://uploads.divjoy.com/undraw-personal_settings_kihd.svg",
+      title: "Feature02",
+      description: "Paragraph",
+      image: ""
     },
     {
-      title: "Explore",
-      description:
-        "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.",
-      image: "https://uploads.divjoy.com/undraw-having_fun_iais.svg",
+      title: "Feature03",
+      description: "Paragraph",
+      image: ""
     },
     {
-      title: "Explore",
-      description:
-        "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.",
-      image: "https://uploads.divjoy.com/undraw-balloons_vxx5.svg",
-    },
+      title: "Feature04",
+      description: "Paragraph",
+      image: ""
+    }
   ];
 
   return (
